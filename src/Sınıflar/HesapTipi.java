@@ -6,7 +6,7 @@ package Sınıflar;
 	"admin_tip"	nvarchar(1),
 	PRIMARY KEY("id")
 )*/
-public class HesapTipi {
+public class HesapTipi extends VeriTabaniIslemleri {
    public String id,personel_tip,admin_id,admin_tip;
 
     public String getId() {

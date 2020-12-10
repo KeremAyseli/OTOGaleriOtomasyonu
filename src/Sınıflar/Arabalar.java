@@ -3,7 +3,7 @@ package Sınıflar;
 import javax.xml.transform.Result;
 import java.sql.ResultSet;
 
-public class Arabalar {
+public class Arabalar extends VeriTabaniIslemleri {
     public String araba_id,  Marka, Seri,Model,Yıl, Yakıt, Vites, Kasa;
     public String Motor_Gucu, Motor_Hacmi,Çekiş, Renk, Garanti, Plaka;
     int KM;

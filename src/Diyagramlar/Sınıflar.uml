@@ -3,26 +3,53 @@
   <ID>JAVA</ID>
   <OriginalElement>Sınıflar</OriginalElement>
   <nodes>
-    <node x="0.0" y="1068.0">Sınıflar.HesapTipi</node>
-    <node x="247.0" y="128.0">Sınıflar.VeriTabaniIslemleri</node>
-    <node x="238.0" y="1068.0">com.company.Main</node>
-    <node x="996.0" y="0.0">Sınıflar.Musteriler</node>
-    <node x="0.0" y="0.0">Sınıflar.Arabalar</node>
+    <node x="23.5" y="837.0">Sınıflar.HesapTipi</node>
+    <node x="0.0" y="128.0">Sınıflar.VeriTabaniIslemleri</node>
+    <node x="404.25" y="12.0">com.company.Main</node>
+    <node x="458.5" y="804.0">Sınıflar.Musteriler</node>
+    <node x="236.5" y="474.0">Sınıflar.Arabalar</node>
   </nodes>
   <notes>
-    <note x="417.0" y="0.0">
+    <note x="20.25" y="0.0">
       <node>Sınıflar.VeriTabaniIslemleri</node>
       <value>Veri Tabanından gelen veriler,\nArabalar,Müsteriler ve HesapTipi sınafları \nşeklinde kullanıma hazır hale getirildikten sonra\nistenilen sınıfın metotlarıyla kullanılabilirler.</value>
       <edge>
-        <point x="0.0" y="-148.0" />
+        <point x="-169.5" y="-148.0" />
+        <point x="169.5" y="103.0" />
+        <point x="202.25" y="103.0" />
         <point x="0.0" y="39.0" />
       </edge>
     </note>
   </notes>
-  <edges />
-  <settings layout="Hierarchic Group" zoom="0.9947909527073338" x="566.4931556263032" y="662.7915808917398" />
+  <edges>
+    <edge source="Sınıflar.Musteriler" target="Sınıflar.VeriTabaniIslemleri">
+      <point x="0.0" y="-181.5" />
+      <point x="561.0" y="449.0" />
+      <point x="565.0" y="449.0" />
+      <point x="226.0" y="148.0" />
+    </edge>
+    <edge source="Sınıflar.Arabalar" target="Sınıflar.VeriTabaniIslemleri">
+      <point x="0.0" y="-511.5" />
+      <point x="337.5" y="449.0" />
+      <point x="339.0" y="449.0" />
+      <point x="0.0" y="148.0" />
+    </edge>
+    <edge source="Sınıflar.VeriTabaniIslemleri" target="com.company.Main">
+      <point x="169.5" y="-148.0" />
+      <point x="508.5" y="103.0" />
+      <point x="478.75" y="103.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Sınıflar.HesapTipi" target="Sınıflar.VeriTabaniIslemleri">
+      <point x="0.0" y="-148.5" />
+      <point x="120.0" y="449.0" />
+      <point x="113.0" y="449.0" />
+      <point x="-226.0" y="148.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5397111913357401" x="288.4926152156694" y="513.6187290969899" />
   <SelectedNodes>
-    <node>Sınıflar.HesapTipi</node>
+    <node>Sınıflar.VeriTabaniIslemleri</node>
   </SelectedNodes>
   <Categories>
     <Category>Fields</Category>

@@ -4,8 +4,11 @@ import com.company.Main;
 import java.sql.*;
 import java.util.ArrayList;
 
-public class VeriTabaniIslemleri {
-
+public class VeriTabaniIslemleri extends Main {
+    /**
+     * Bu metot veri tabanıyla iletişim bağlantı kurmaya yarar.
+     * @return
+     */
     public Connection Baglan(){
         Connection baglantı=null;
         try{
@@ -13,7 +16,7 @@ public class VeriTabaniIslemleri {
             System.out.println("Bağlantı Başarılı");
 
         }catch (Exception e){
-            System.out.println("Bağlantı Başarısız");
+            System.out.println("Bağlantı Başarısız"+e.getMessage());
         }
         return baglantı;
     }

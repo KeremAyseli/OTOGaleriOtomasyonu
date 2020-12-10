@@ -6,7 +6,7 @@ package Sınıflar;
 	"müsteri_telNo"	nvarchar(255),
 	PRIMARY KEY("id")
 )*/
-public class Musteriler {
+public class Musteriler extends VeriTabaniIslemleri {
     public String id;
     public String musteri_ad;
     public String musteri_soyad;
