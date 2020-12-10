@@ -7,7 +7,20 @@ package Sınıflar;
 	PRIMARY KEY("id")
 )*/
 public class Musteriler {
-    public String id,musteri_ad,musteri_soyad,muster_telNo;
+    public String id;
+    public String musteri_ad;
+    public String musteri_soyad;
+    public String muster_telNo;
+
+    public String getAraba_id() {
+        return araba_id;
+    }
+
+    public void setAraba_id(String araba_id) {
+        this.araba_id = araba_id;
+    }
+
+    public String araba_id;
 
     public String getId() {
         return id;
